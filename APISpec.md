@@ -19,8 +19,8 @@ This API provides comprehensive movie recommendation and user interaction featur
 | Name | Type | Location | Required | Description |
 |------|------|----------|----------|-------------|
 | `genre` | string | Query | Optional | Filter movies by genre |
-| `minRating` | number | Query | Optional | Minimum movie rating (0-5) |
-| `maxRating` | number | Query | Optional | Maximum movie rating (0-5) |
+| `minRating` | number | Query | Optional | Minimum average movie rating (0-5) |
+| `maxRating` | number | Query | Optional | Maximum average movie rating (0-5) |
 
 #### Response
 - **Status:** 200 OK
